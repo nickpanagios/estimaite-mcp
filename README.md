@@ -53,6 +53,18 @@ number is published, so none is asserted here. What the product does claim is st
 produced before an estimator opens the drawing, and the estimator reviews them against an overlay of what was
 measured.
 
+## In the MCP registry
+
+Published as **`com.esti-maite/construction-takeoff-estimating`**, under a namespace verified against
+`esti-maite.com`.
+
+```bash
+curl 'https://registry.modelcontextprotocol.io/v0/servers?search=construction-takeoff-estimating'
+```
+
+The entry is named for what the server does rather than for the brand because registry search matches the
+server name and ignores the description. `server.json` in this repository is the manifest that was published.
+
 ## Links
 
 - Product: https://www.esti-maite.com
