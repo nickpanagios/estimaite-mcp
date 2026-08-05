@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.nickpanagios/estimaite",
+  "description": "Construction takeoff and estimating for AI agents. Upload a drawing PDF, set or auto-detect scale, measure and count scope by trade, price it, and export a priced estimate or proposal.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.esti-maite.com/mcp",
+  "repository": {
+    "url": "https://github.com/nickpanagios/estimaite-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.esti-maite.com/mcp"
+    }
+  ]
+}
